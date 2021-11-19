@@ -1,0 +1,93 @@
+.logo {
+  font-size: 1.1em;
+  color: #000;
+  font-weight: 600;
+}
+
+ul li {
+  list-style: none;
+  font-size: 0.7em;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  font-weight: 600;
+}
+
+ul li a:hover {
+  color: rgb(22, 76, 255);
+}
+
+.social-media {
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.social-media:hover {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+}
+
+.section-2 {
+  margin-top: 12%;
+}
+
+.main-headerline {
+  font-size: 3em;
+  color: #000;
+  font-weight: 700;
+  width: 45%;
+}
+
+.details {
+  margin-left: 10%;
+}
+
+.w-50 {
+  font-size: 12px;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
+.btn-dark {
+  font-size: 0.6em;
+  width: 18%;
+  border-radius: 20px;
+  height: 42px;
+}
+
+.btn-light {
+  font-size: 0.6em;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  font-weight: 600;
+  margin-top: 17%;
+  margin-bottom: 5%;
+}
+
+.wrapper-one {
+  background-image: url("./img/background-1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  /* height: auto; */
+}
+
+@media screen and (max-width: 768px) {
+  .main-headerline {
+    font-size: 1.5em;
+  }
+
+  ul.sign-in-up {
+    display: none;
+  }
+
+}
