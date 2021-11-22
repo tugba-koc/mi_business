@@ -2,6 +2,7 @@
   font-size: 1.1em;
   color: #000;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 ul li {
@@ -56,7 +57,7 @@ ul li a:hover {
 
 .btn-dark {
   font-size: 0.6em;
-  width: 18%;
+  /* width: 18%; */
   border-radius: 20px;
   height: 42px;
 }
@@ -78,7 +79,6 @@ ul li a:hover {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  /* height: auto; */
 }
 
 @media screen and (max-width: 768px) {
@@ -90,4 +90,69 @@ ul li a:hover {
     display: none;
   }
 
+  ul.menus {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper-one {
+    background-image: none;
+  }
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.wrapper-two {
+  background-image: url("./img/background-2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 125vh;
+  padding-left: 15%;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.wrapper-two-headerline {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  width: 17%;
+  line-height: 1.2em;
+}
+
+.w-15 {
+  width: 18%;
+  color: white;
+  font-size: small;
+}
+
+.upper-image {
+  width: 45%;
+  height: 50%;
+  background-image: url("./img/upper-image.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  position: absolute;
+  top: 25%;
+  left: 38%;
+}
+
+.top-line {
+  height: 220px;
+  position: absolute;
+  top: 68%;
+  left: 68%;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  color: #000;
+  font-weight: 600;
+  width: max-content;
 }
