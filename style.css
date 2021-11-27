@@ -45,6 +45,17 @@ ul li a:hover {
   width: 45%;
 }
 
+@media screen and (max-width: 768px) {
+  .main-headerline,
+  .w-50 {
+    margin-left: 7%;
+  }
+  .main-headerline{
+    width: 80%;
+    margin-bottom: 18%;
+  }
+}
+
 .details {
   margin-left: 10%;
 }
@@ -57,7 +68,6 @@ ul li a:hover {
 
 .btn-dark {
   font-size: 0.6em;
-  /* width: 18%; */
   border-radius: 20px;
   height: 42px;
 }
@@ -83,7 +93,7 @@ ul li a:hover {
 
 @media screen and (max-width: 768px) {
   .main-headerline {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   ul.sign-in-up {
@@ -127,6 +137,13 @@ ul li a:hover {
   line-height: 1.2em;
 }
 
+@media screen and (max-width: 768px) {
+  .wrapper-two-headerline {
+    width: 80%;
+    color:rgb(0, 0, 0)
+  }
+}
+
 .w-15 {
   width: 18%;
   color: white;
@@ -155,4 +172,102 @@ ul li a:hover {
   color: #000;
   font-weight: 600;
   width: max-content;
+}
+
+@media screen and (max-width: 1530px) {
+  .top-line {
+    height: 160px;
+  }
+}
+
+.parent-three {
+  background-color: #f0f2f1;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.wrapper-three-headerline {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  width: 17%;
+  line-height: 1.2em;
+  min-width: 300px;
+}
+
+p.w-three-15 {
+  width: 33%;
+  color: rgb(0, 0, 0);
+  font-size: small;
+}
+
+.expertises {
+  background-color: rgb(255, 255, 255);
+  border-right: 1px solid rgb(224, 224, 224);
+}
+
+.expertises:last-of-type{
+  border-right: none;
+}
+
+.sub-img {
+  width: 50%;
+  height: auto;
+}
+
+.sub-headline {
+  font-size: 1.3em;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  line-height: 1.2em;
+  white-space: nowrap;
+}
+
+.btn-light {
+  font-size: 0.6em;
+  border-radius: 20px;
+  height: 42px;
+}
+
+.container-part {
+  box-shadow: 0px 25px 25px 0px rgba(209, 209, 209, 0.75);
+}
+
+@media screen and (max-width: 992px) {
+  .container-part{
+    box-shadow: none
+  }
+  
+}
+
+.wrapper-four {
+  background-image: url("./img/background-4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 125vh;
+}
+
+.p-four-headline {
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  width: 45%;
+}
+
+.p-four-text {
+  color: rgb(255, 255, 255);
+  font-size: small;
+  width: 40%;
+}
+
+.btn-primary {
+  font-size: 0.6em;
+  border-radius: 20px;
+  height: 42px;
+}
+
+.text-grey {
+  color: rgb(196, 196, 196);
+  font-size: small;
 }
