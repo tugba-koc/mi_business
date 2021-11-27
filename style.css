@@ -48,12 +48,19 @@ ul li a:hover {
 @media screen and (max-width: 768px) {
   .main-headerline,
   .w-50 {
-    margin-left: 7%;
+    margin-left: 10%;
   }
   .main-headerline{
-    width: 80%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-headerline {
     margin-bottom: 18%;
   }
+
+  
 }
 
 .details {
@@ -72,12 +79,13 @@ ul li a:hover {
   height: 42px;
 }
 
+
+
 .btn-light {
   font-size: 0.6em;
   border: 1px solid rgb(196, 196, 196);
-  border-radius: 50%;
   width: 100px;
-  height: 100px;
+
   background-color: transparent;
   font-weight: 600;
   margin-top: 17%;
@@ -270,4 +278,10 @@ p.w-three-15 {
 .text-grey {
   color: rgb(196, 196, 196);
   font-size: small;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
